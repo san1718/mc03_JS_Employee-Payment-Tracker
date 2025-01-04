@@ -12,14 +12,14 @@ const collectEmployees = function() {
     // Getting employee's full name and salary
     const firstName = prompt("Employee's first name: ");
     const lastName = prompt("Employee's last name: ");
-    const salary = parseFloat(prompt("Employee's salary: "));
+    const salary = parseInt(prompt("Employee's salary: "));
     // Creating object for employee
     const employee = {
       firstName: firstName,
       lastName: lastName,
       salary: salary,
     };
-    employees.push(employees);
+    employees.push(employee);
   }
 
   return employees;
@@ -29,13 +29,15 @@ const collectEmployees = function() {
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
   let totalSalary = 0;
-  const averageSalary = totalSalary / employeesArray.length;
+  
   // Loop to see the salaries and add them up
   for (let i = 0 ; i < employeesArray.length ; i++) {
     totalSalary += employeesArray[i].salary;
   }
+  // Average calculation after summing salaries
+  const averageSalary = totalSalary / employeesArray.length;
   // Sending alert for averageSalary 
-  alert(`Average employee salary is: ${averageSalary.toLocaleString('en-US',
+  alert(`Average employee salary is: ${averageSalary.toLocaleString("en-US",
         {
           style: "currency",
           currency: "USD",
@@ -47,7 +49,35 @@ const displayAverageSalary = function(employeesArray) {
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  // Checking if there is any data input
+  if (employeesArray.length === 0) {
+    alert("There are no employees currently.");
+    return;
+  }
+  // Creatinng index with employeesArray length
+  const randomIndex = Math.floor(Math.random() * employeesArray.length);
+  // Getting employee in the array from the index
+  const randomEmployee = employeesArray[randomIndex]
+  // Displaying result of random employee
+  alert(
+    `Employee selected randomly: 
+    \nFirst Name: ${randomEmployee.firstName}
+    \nLast Name: ${randomEmployee.lastName}
+    \nSalary: ${randomEmployee.salary.toLocaleString("en-US", {
+      style: "currency",
+      currency: "USD",
+    })}`);
+  // Displaying result of random employee in console
+  console.log(
+    `Employee selected randomly: 
+    \nFirst Name: ${randomEmployee.firstName}
+    \nLast Name: ${randomEmployee.lastName}
+    \nSalary: ${randomEmployee.salary.toLocaleString("en-US", {
+      style: "currency",
+      currency: "USD",
+    })}`);
   
+    return randomEmployee;
 }
 
 /*
