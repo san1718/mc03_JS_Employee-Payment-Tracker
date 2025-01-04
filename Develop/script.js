@@ -13,7 +13,6 @@ const collectEmployees = function() {
     const firstName = prompt("Employee's first name: ");
     const lastName = prompt("Employee's last name: ");
     const salary = parseFloat(prompt("Employee's salary: "));
-    
     // Creating object for employee
     const employee = {
       firstName: firstName,
@@ -22,18 +21,33 @@ const collectEmployees = function() {
     };
     employees.push(employees);
   }
+
   return employees;
 }
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
+  let totalSalary = 0;
+  const averageSalary = totalSalary / employeesArray.length;
+  // Loop to see the salaries and add them up
+  for (let i = 0 ; i < employeesArray.length ; i++) {
+    totalSalary += employeesArray[i].salary;
+  }
+  // Sending alert for averageSalary 
+  alert(`Average employee salary is: ${averageSalary.toLocaleString('en-US',
+        {
+          style: "currency",
+          currency: "USD",
+        })}`);
 
+  return averageSalary;
 }
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  
 }
 
 /*
