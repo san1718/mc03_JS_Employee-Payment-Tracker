@@ -16,9 +16,9 @@ The data will sort the names alphabetically by last name.
 3. JavaScript
 
 ## Screenshots
-<img width="500" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/Base.png">
-<img width="500" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/Prompt1.png">
-<img width="500" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/Result1.png">
-<img width="500" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/RandomResult.png">
-<img width="500" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/ResultConsole.png">
-<img width="500" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/TableResult.png">
+<img width="750" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/Base.png">
+<img width="750" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/Prompt1.png">
+<img width="750" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/Result1.png">
+<img width="750" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/RandomResult.png">
+<img width="750" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/ResultConsole.png">
+<img width="750" alt="Homepage" src="https://github.com/san1718/mc03_JS/blob/main/Develop/images/TableResult.png">
