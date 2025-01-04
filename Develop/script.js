@@ -50,7 +50,7 @@ const displayAverageSalary = function(employeesArray) {
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
   // Checking if there is any data input
-  if (employeesArray.length === 0) {
+  if (employeesArray.length <= 0) {
     alert("There are no employees currently.");
     return;
   }
@@ -60,7 +60,7 @@ const getRandomEmployee = function(employeesArray) {
   const randomEmployee = employeesArray[randomIndex]
   // Displaying result of random employee
   alert(
-    `Employee selected randomly: 
+    `Randomly selected employee: 
     \nFirst Name: ${randomEmployee.firstName}
     \nLast Name: ${randomEmployee.lastName}
     \nSalary: ${randomEmployee.salary.toLocaleString("en-US", {
