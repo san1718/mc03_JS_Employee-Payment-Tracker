@@ -15,6 +15,10 @@ The data will sort the names alphabetically by last name.
 2. CSS
 3. JavaScript
 
+## Links
+[Git](https://github.com/san1718/mc03_JS_Employee-Payment-Tracker)
+[Deployed](https://san1718.github.io/mc03_JS_Employee-Payment-Tracker/)
+
 ## Screenshots
 <img width="750" alt="Base" src="https://github.com/san1718/mc03_JS_Employee-Payment-Tracker/blob/main/images/Base.png">
 <img width="750" alt="Prompt1" src="https://github.com/san1718/mc03_JS_Employee-Payment-Tracker/blob/main/images/Prompt1.png">
