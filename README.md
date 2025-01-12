@@ -16,7 +16,8 @@ The data will sort the names alphabetically by last name.
 3. JavaScript
 
 ## Links
-[Git](https://github.com/san1718/mc03_JS_Employee-Payment-Tracker) \n
+[Git](https://github.com/san1718/mc03_JS_Employee-Payment-Tracker)
+<br />
 [Deployed](https://san1718.github.io/mc03_JS_Employee-Payment-Tracker/)
 
 ## Screenshots
