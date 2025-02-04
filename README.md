@@ -1,5 +1,13 @@
 # Employee Payroll Tracker
 
+## Table of Contents
+* [Overview](#overview)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Summary](#summary)
+* [Links](#links)
+* [Screenshots](#screenshots)
+
 ## Overview
 The code will provide a way to track employee(s) payroll(s) by inputting their first name, last name, and salary.
 After finishing adding one employee, another prompt will be asked if to continue or finish the tracker.
@@ -14,6 +22,10 @@ The data will sort the names alphabetically by last name.
 1. HTML
 2. CSS
 3. JavaScript
+
+## Summary
+Keeping track of employee's payroll is important. 
+The application will help the users get a better understanding of their employee's payroll.
 
 ## Links
 [Git](https://github.com/san1718/mc03_JS_Employee-Payment-Tracker)
